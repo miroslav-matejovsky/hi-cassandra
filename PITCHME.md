@@ -1,16 +1,31 @@
----?image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1920px-Cassandra_logo.svg.png
+---
 
-#[Cassandra](http://cassandra.apache.org/)
+# Cassandra
+
+- [Apache](http://cassandra.apache.org/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Apache_Cassandra)
+- Column data store
 
 ---
 
-## Fault tolerant
+## Data distribution
+
+- [link](https://dzone.com/articles/an-introduction-to-apache-cassandra#how-apache-cassandra-distributes-data)
+- no single point of failure
+- token ranges are distributes across nodes
+- token is created by row partition key 
+
 
 --- 
 
-## Decentralized
+## Modeling
+
+- [link](http://adamhutson.com/posts/) 
+- each row has partition key
+- column family is roughly represented as `Map<ParitionKey, SortedMap<ColumnKey, ColumnValue>>`
 
 ---
 
-## Scalable
+## CQL
+
 
