@@ -1,9 +1,16 @@
-@title(About cassandra)
+---?image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Cassandra_logo.svg/1920px-Cassandra_logo.svg.png
 
-# Let's Get Started
+#[Cassandra](http://cassandra.apache.org/)
 
 ---
 
-## Second slide
+## Fault tolerant
 
-![](https://en.wikipedia.org/wiki/Apache_Cassandra#/media/File:Cassandra_logo.svg)
+--- 
+
+## Decentralized
+
+---
+
+## Scalable
+
